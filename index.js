@@ -60,8 +60,8 @@ app.post('/webhook', async function (req, res) {
     res.send('Ok');
 });
 
-app.listen(3030, function () {
-    console.log('Listening on port 3030..');
+app.listen(80, function () {
+    console.log('Listening on port 80..');
 });
 
 async function apiChatApi(method, params){
